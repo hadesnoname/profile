@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Lobster", cursive;
 }
 
 body {
@@ -46,6 +46,9 @@ header {
     margin-top: 3rem;
     margin-left: 6rem;
     margin-right: 6rem;
+    max-width: 1000px; /* Установим максимальную ширину */
+    margin: 3rem auto; /* Центрируем контейнер */
+    padding: 20px; /* Добавим немного отступа внутрь контейнера */
 }
 .main_profile>div>img {
     display: inline-block;
@@ -109,6 +112,9 @@ section {
     margin-left: 6rem;
     margin-right: 6rem;
     margin-top: 3rem;
+    max-width: 1000px; /* Установим максимальную ширину */
+    margin: 3rem auto; /* Центрируем контейнер */
+    padding: 20px; /* Добавим немного отступа внутрь контейнера */
 }
 .about {
     position: relative;
@@ -169,7 +175,7 @@ footer>ul>a {
         padding: 20px 40px;
     }
     .logo {
-        max-width: 70px;
+        max-width: 120px;
         background-image: none;
     }
     .navigation {
@@ -258,16 +264,26 @@ footer>ul>a {
 
     .time,
     .name,
-    #verify,
-    .email-ver,
     .solid1 {
         position: static;
         margin-left: 0;
         margin-top: 0;
-        bottom: 0;
+        bottom: 10px;
         left: 0;
     }
-
+    .email-ver {
+        top: 4px;
+        margin-left: 2rem;
+        margin-top: 0;
+        bottom: 0;
+        left: 0;    
+    }
+    #verify {
+        top: 28.5px;
+        margin-left: 0;
+        margin-top: 0;
+        bottom: 0;
+        left: 0;    }
     .time.active {
         display: block;
     }
